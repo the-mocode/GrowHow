@@ -1,0 +1,21 @@
+{
+  "name": "growhow",
+  "version": "1.0.0",
+  "description": "GrowHow gives you the know how to look the after your plants",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-mocode/GrowHow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-mocode/GrowHow/issues"
+  },
+  "homepage": "https://github.com/the-mocode/GrowHow#readme"
+}
+
