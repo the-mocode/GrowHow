@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import FileSelectedHandler from './components/FileUpload';
 import './App.css';
+// import { Identify } from './components/PlantId';
+
+
 
 function App() {
+  
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>GrowHow</h1>
+      
+      <p>GrowHow lets you upload a photo of you a plant inorder to identify and learn more about</p>
+      
+      <FileSelectedHandler />
     </div>
   );
 }
