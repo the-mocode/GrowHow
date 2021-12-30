@@ -6,9 +6,13 @@ export default function FileSelectedHandler (event)  {
     const [selectedFile, setSelectedFile] = useState(null) 
     useEffect (x => {
         console.log(selectedFile)
-    }, [selectedFile])
+    }, [selectedFile]);
+
+    function uploadHandler(e) {
+        
+    }
     return (
-        <>
+        <>        
             <input type="file" onChange={(e) => setSelectedFile(e.target.files[0])}/>
         </>
     ) 

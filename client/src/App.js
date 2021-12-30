@@ -1,6 +1,8 @@
 import FileSelectedHandler from './components/FileUpload';
 import './App.css';
-// import { Identify } from './components/PlantId';
+import { Identify } from './components/PlantId';
+import UploadFile from './components/UploadFile';
+
 
 
 
@@ -13,7 +15,10 @@ function App() {
       
       <p>GrowHow lets you upload a photo of you a plant inorder to identify and learn more about</p>
       
-      <FileSelectedHandler />
+      <UploadFile />
+      
+      {/* <Identify /> */}
+      
     </div>
   );
 }
